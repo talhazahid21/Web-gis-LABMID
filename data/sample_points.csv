@@ -1,0 +1,33 @@
+osm_type,osm_id,name,category,subtype,operator,brand,address,phone,opening_hours,open_24h,fuel_types,access,fee,website,source,lon,lat
+sample,1,SAMPLE Police station 01,Police station,Police station,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,,,,SAMPLE (synthetic - not real),66.482308,30.861626
+sample,2,SAMPLE Police station 02,Police station,Police station,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,,,,SAMPLE (synthetic - not real),66.424005,30.874509
+sample,3,SAMPLE Police station 03,Police station,Police station,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,,,,SAMPLE (synthetic - not real),66.497835,30.903985
+sample,4,SAMPLE Police station 04,Police station,Police station,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,,,,SAMPLE (synthetic - not real),66.522749,30.865651
+sample,5,SAMPLE Police station 05,Police station,Police station,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,,,,SAMPLE (synthetic - not real),66.447507,30.861937
+sample,6,SAMPLE Police station 06,Police station,Police station,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,,,,SAMPLE (synthetic - not real),66.414982,30.892848
+sample,7,SAMPLE Police station 07,Police station,Police station,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,,,,SAMPLE (synthetic - not real),66.384246,30.872924
+sample,8,SAMPLE Police station 08,Police station,Police station,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,,,,SAMPLE (synthetic - not real),66.483982,30.895421
+sample,9,SAMPLE Police station 09,Police station,Police station,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,,,,SAMPLE (synthetic - not real),66.41527,30.898302
+sample,10,SAMPLE Check post / outpost 10,Police station,Check post / outpost,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,,,,SAMPLE (synthetic - not real),66.509509,30.860422
+sample,11,SAMPLE Check post / outpost 11,Police station,Check post / outpost,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,,,,SAMPLE (synthetic - not real),66.508931,30.905379
+sample,12,SAMPLE Check post / outpost 12,Police station,Check post / outpost,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,,,,SAMPLE (synthetic - not real),66.43444,30.870106
+sample,13,SAMPLE Park 13,Park,Park,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,yes,no,,SAMPLE (synthetic - not real),66.533154,30.881879
+sample,14,SAMPLE Park 14,Park,Park,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,yes,no,,SAMPLE (synthetic - not real),66.394839,30.866287
+sample,15,SAMPLE Park 15,Park,Park,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,yes,no,,SAMPLE (synthetic - not real),66.515599,30.899242
+sample,16,SAMPLE Park 16,Park,Park,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,yes,no,,SAMPLE (synthetic - not real),66.509141,30.907433
+sample,17,SAMPLE Park 17,Park,Park,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,yes,no,,SAMPLE (synthetic - not real),66.465796,30.923253
+sample,18,SAMPLE Garden 18,Park,Garden,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,yes,no,,SAMPLE (synthetic - not real),66.440566,30.895883
+sample,19,SAMPLE Garden 19,Park,Garden,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,yes,no,,SAMPLE (synthetic - not real),66.512705,30.900204
+sample,20,SAMPLE Garden 20,Park,Garden,,,Synthetic test point,,Mo-Su 08:00-20:00,false,,yes,no,,SAMPLE (synthetic - not real),66.517873,30.897528
+sample,21,SAMPLE Fuel station 21,Petrol station,Fuel station,,PSO,Synthetic test point,,24/7,true,"Diesel, Octane 92",,,,SAMPLE (synthetic - not real),66.387332,30.874813
+sample,22,SAMPLE Fuel station 22,Petrol station,Fuel station,,Total,Synthetic test point,,Mo-Su 08:00-20:00,false,"Diesel, Octane 92",,,,SAMPLE (synthetic - not real),66.537635,30.915596
+sample,23,SAMPLE Fuel station 23,Petrol station,Fuel station,,PSO,Synthetic test point,,24/7,true,"Diesel, Octane 92",,,,SAMPLE (synthetic - not real),66.44082,30.889472
+sample,24,SAMPLE Fuel station 24,Petrol station,Fuel station,,Total,Synthetic test point,,Mo-Su 08:00-20:00,false,"Diesel, Octane 92",,,,SAMPLE (synthetic - not real),66.406025,30.883093
+sample,25,SAMPLE Fuel station 25,Petrol station,Fuel station,,Total,Synthetic test point,,24/7,true,"Diesel, Octane 92",,,,SAMPLE (synthetic - not real),66.492291,30.904431
+sample,26,SAMPLE Fuel station 26,Petrol station,Fuel station,,PSO,Synthetic test point,,Mo-Su 08:00-20:00,false,"Diesel, Octane 92",,,,SAMPLE (synthetic - not real),66.477461,30.871124
+sample,27,SAMPLE Fuel station 27,Petrol station,Fuel station,,Shell,Synthetic test point,,24/7,true,"Diesel, Octane 92",,,,SAMPLE (synthetic - not real),66.406144,30.884665
+sample,28,SAMPLE Fuel station 28,Petrol station,Fuel station,,Shell,Synthetic test point,,Mo-Su 08:00-20:00,false,"Diesel, Octane 92",,,,SAMPLE (synthetic - not real),66.489538,30.914785
+sample,29,SAMPLE Fuel station 29,Petrol station,Fuel station,,PSO,Synthetic test point,,24/7,true,"Diesel, Octane 92",,,,SAMPLE (synthetic - not real),66.416648,30.862087
+sample,30,SAMPLE Fuel station 30,Petrol station,Fuel station,,Total,Synthetic test point,,Mo-Su 08:00-20:00,false,"Diesel, Octane 92",,,,SAMPLE (synthetic - not real),66.444186,30.864302
+sample,31,SAMPLE CNG station 31,Petrol station,CNG station,,Total,Synthetic test point,,24/7,true,"Diesel, Octane 92",,,,SAMPLE (synthetic - not real),66.41402,30.89245
+sample,32,SAMPLE CNG station 32,Petrol station,CNG station,,Attock,Synthetic test point,,Mo-Su 08:00-20:00,false,"Diesel, Octane 92",,,,SAMPLE (synthetic - not real),66.402859,30.869076

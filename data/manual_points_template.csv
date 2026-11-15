@@ -1,0 +1,2 @@
+osm_type,osm_id,name,category,subtype,operator,brand,address,phone,opening_hours,open_24h,fuel_types,access,fee,website,source,lon,lat
+,,Example Petrol Pump (delete this row),Petrol station,Fuel station,,PSO,Quetta-Chaman Road,,24/7,true,"Diesel, Octane 92",,,,Manual survey,66.4500,30.9100

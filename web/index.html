@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chaman Places Atlas – Police Stations, Parks &amp; Petrol Stations</title>
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <h1>Chaman Places Atlas</h1>
+    <p>Police stations, parks and petrol stations · Chaman, Balochistan</p>
+  </div>
+  <div class="badges" id="badges" aria-live="polite"></div>
+</header>
+
+<div class="layout">
+  <aside class="panel" id="panel">
+    <section class="card">
+      <h2>About the study area</h2>
+      <p><b>Chaman</b> is the headquarters of Chaman District in Balochistan, Pakistan, at about
+         30.92° N, 66.45° E and roughly 1,338 m above sea level. It lies on the Afghan border next to the
+         Friendship Gate crossing, on the route linking Quetta and Kandahar. The district was created in 2021
+         by splitting Qila Abdullah District.</p>
+      <p>This map shows the <b>police stations, parks and petrol stations</b> inside the study extent
+         (dashed rectangle). The points are stored in <b>PostgreSQL/PostGIS</b> and delivered to this page by a
+         REST API.</p>
+      <dl class="facts" id="facts"></dl>
+    </section>
+
+    <section class="card">
+      <h2>Filters</h2>
+      <fieldset class="types" id="typeFilters"><legend>Category</legend></fieldset>
+      <label class="chk" style="margin-top:10px"><input type="checkbox" id="open24"> Open 24/7 only</label>
+      <label for="search">Search by name or brand</label>
+      <input id="search" type="search" placeholder="e.g. PSO, Shell, Garden" autocomplete="off">
+      <button id="reset" class="ghost" type="button">Reset filters</button>
+    </section>
+
+    <section class="card">
+      <h2>Find the nearest place</h2>
+      <p class="hint">Click anywhere on the map, or use your location.</p>
+      <label for="nearCat">Look for</label>
+      <select id="nearCat">
+        <option value="">Any category</option>
+        <option>Police station</option><option>Park</option><option>Petrol station</option>
+      </select>
+      <button id="locate" type="button" style="margin-top:10px">Use my location</button>
+      <ol id="nearest" class="nearest"></ol>
+    </section>
+
+    <section class="card grow">
+      <h2>Places <span id="count" class="count"></span></h2>
+      <ul id="list" class="list"></ul>
+    </section>
+  </aside>
+
+  <main id="map" role="application" aria-label="Map of police stations, parks and petrol stations in Chaman"></main>
+</div>
+
+<footer>Data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL) ·
+  Database: PostgreSQL + PostGIS · API: Flask · Map: Leaflet · Web GIS Applications (MET418)</footer>
+
+<script src="vendor/leaflet.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
